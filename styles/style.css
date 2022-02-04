@@ -16,15 +16,23 @@ footer{
     align-items: center;
     margin: 0 auto;
     width: 100%;
+    background-color: black;
 }
 
 .imagens{
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 85px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .logo{
-    width: 230px;
+    width: 250px;
+    margin-right: 50px;
+}
+
+#flex{
+    margin-bottom: 150px;
 }
 
 
