@@ -4,7 +4,49 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #EAEAEA;
+}
+
 footer{
     position: absolute;
     bottom: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#logo{
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+header ul{
+    display: flex;
+    margin-right: 25px
+}
+
+#jogos{
+    text-transform: uppercase;
+}
+
+#buy{
+    color: red;
+    border: 1px solid gray;
+}
+
+header li{
+    list-style: none;
+    margin-right: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header li:hover{
+    color: red;
 }
