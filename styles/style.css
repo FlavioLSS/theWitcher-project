@@ -69,6 +69,13 @@ header ul{
     margin-right: 25px
 }
 
+select {
+    border:none;
+    background: #EAEAEA;
+    width: 70px;
+    font-weight: bold;
+}
+
 #jogos{
     text-transform: uppercase;
 }
