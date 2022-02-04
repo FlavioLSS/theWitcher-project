@@ -17,6 +17,7 @@ footer{
     margin: 0 auto;
     width: 100%;
     background-color: black;
+    flex-direction: column;
 }
 
 .imagens{
@@ -32,7 +33,20 @@ footer{
 }
 
 #flex{
-    margin-bottom: 150px;
+    margin-bottom: 80px;
+}
+
+#end{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-family: arial, 'Times New Roman', Times, serif;
+
+    
+}
+
+p{
+    color: gray;
 }
 
 
