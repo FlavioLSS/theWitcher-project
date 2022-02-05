@@ -7,3 +7,85 @@
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+header ul{
+    display: flex;
+    margin-right: 25px
+}
+
+select {
+    border:none;
+    background: #EAEAEA;
+    width: 70px;
+    font-weight: bold;
+}
+
+#jogos{
+    text-transform: uppercase;
+}
+
+#buy{
+    color: red;
+    border: 1px solid gray;
+}
+
+header li{
+    list-style: none;
+    margin-right: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+footer{
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: black;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+#flex{
+    margin-bottom: 80px;
+}
+
+#end{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-family: arial, 'Times New Roman', Times, serif;
+    color: gray;
+}
+
+.imagens{
+    width: 75px;
+    height: 85px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
