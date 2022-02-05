@@ -34,14 +34,15 @@ footer{
     display:flex;
     justify-content: center;
     flex-direction: row;
+    margin-left: 40px;
     
 }
 
 .noticia1{
     width: 400px;
     height: 250px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 95px;
     position:relative;
     transition: .3s;
 }
@@ -52,14 +53,14 @@ footer{
 
 #titulo1{
     text-align: center;
-
+    margin-right: 85px;
 }
 
 .noticia2{
     width: 400px;
     height: 250px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     position:relative;
     transition: .3s;
 }
@@ -68,13 +69,15 @@ footer{
 }
 #titulo2{
     text-align: center;
+    margin-right: 0px;
+    margin-left: -25px;
 }
 
 .noticia3{
     width: 400px;
     height: 250px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
     position:relative;
     transition: .3s;
 }
@@ -84,6 +87,8 @@ footer{
 }
 #titulo3{
     text-align: center;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 #formulario{
@@ -321,10 +326,9 @@ button:hover{
 }
 
 .mini-card{
-    width: 300px;
-    height: 350px;
+    width: 410px;
+    height: 390px;
     cursor:pointer;
-    opacity: .8;
 }
 
 .item-zoom {
