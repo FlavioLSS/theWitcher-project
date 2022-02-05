@@ -43,11 +43,11 @@ footer{
     margin-left: 20px;
     margin-right: 20px;
     position:relative;
-    transition: .8s;
+    transition: .3s;
 }
 
 .noticia1:hover{
-    top:-2px;box-shadow:0 10px 10px gray
+    top: -3px;box-shadow:0 10px 10px gray
 }
 
 #titulo1{
@@ -61,7 +61,7 @@ footer{
     margin-left: 20px;
     margin-right: 20px;
     position:relative;
-    transition: .8s;
+    transition: .3s;
 }
 .noticia2:hover{
     top:-2px;box-shadow:0 10px 10px gray
@@ -76,7 +76,7 @@ footer{
     margin-left: 20px;
     margin-right: 20px;
     position:relative;
-    transition: .8s;
+    transition: .3s;
 }
 
 .noticia3:hover{
