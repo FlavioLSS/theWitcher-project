@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +11,6 @@ body{
 }
 
 footer{
-    position: absolute;
     bottom: 0;
     display: flex;
     justify-content: center;
@@ -22,7 +23,8 @@ footer{
 
 #textnews{
     text-align: center;
-    margin-bottom: 40px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 #noticias{
@@ -82,7 +84,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -127,4 +129,89 @@ a{
 
 a:hover{
     color: red;
+}
+
+#banner{
+    background: url("https://cdn.ome.lt/B_S79084zg-OBmq2NsBfykWsCQA=/970x360/smart/uploads/conteudo/fotos/The_Witcher_3_-_banner_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    color: white;
+}
+
+#bg{
+    margin-left: 6px;
+}
+
+#bg h2{
+    font-size: 33px;
+    letter-spacing: 1px;
+    font-family: 'Rowdies', cursive;
+}
+
+#bg p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+span{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.884);
+}
+
+#netflix{
+    width: 60px;
+}
+
+#steam{
+    width: 20px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+#controller{
+    width: 40px;
+}
+
+#xbox{
+    width: 40px;
+}
+
+#steam1{
+    display: flex;
+    flex-direction: row;
+}
+
+#buttons{
+    display: flex;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 80px;
+    height: 45px;
+
+    margin-top: 15px;
+
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-right: 10px;
+    opacity: .7;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover{
+    opacity: 1;
+    transform: scale(1.1);
 }
