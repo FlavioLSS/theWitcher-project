@@ -236,9 +236,23 @@ a:hover{
 
 span{
     font-size: 45px;
-    color: rgb(223, 41, 41);
+    color: rgb(238, 37, 37);
     font-family: 'the witcher';
 }
+
+.witcher{
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+#com{
+    margin-left: 160px;
+    margin-bottom: 40px;
+
+}
+
 
 #netflix{
     width: 60px;
@@ -265,6 +279,7 @@ span{
 
 #buttons{
     display: flex;
+    margin-left: 260px;
 }
 
 button{
