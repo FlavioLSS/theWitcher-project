@@ -197,7 +197,7 @@ header li{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 a:hover{
@@ -236,7 +236,8 @@ a:hover{
 
 span{
     font-size: 45px;
-    color: rgba(0, 0, 0, 0.884);
+    color: rgba(255, 0, 0, 0.884);
+    font-family: 'the witcher';
 }
 
 #netflix{
