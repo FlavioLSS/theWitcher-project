@@ -20,7 +20,7 @@ footer{
     width: 100%;
     background-color: black;
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 #textnews{
@@ -88,7 +88,7 @@ footer{
 #formulario{
         justify-content:center;
         display: flex;
-        margin-top: 200px;
+        margin-top: 150px;
         flex-direction: column;
 }
 
