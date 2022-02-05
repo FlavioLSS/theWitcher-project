@@ -20,6 +20,7 @@ footer{
     width: 100%;
     background-color: black;
     flex-direction: column;
+    margin-top: 300px;
 }
 
 #textnews{
@@ -82,6 +83,49 @@ footer{
 }
 #titulo3{
     text-align: center;
+}
+
+#formulario{
+        justify-content:center;
+        display: flex;
+        margin-top: 200px;
+        flex-direction: column;
+}
+
+
+.texto{
+    font-size:30px;
+    text-align: center;
+}
+
+.input{
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#bar{
+    width: 1000px;
+    height: 50px;
+}
+
+#check{
+    display: flex;
+    justify-content:center;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+input[type="text"]{
+    font-size: 30px;
+    padding-left:10px;
+}
+
+#box{
+    width: 30px;
+    height:30px;
+    margin-right: 10px;
 }
 
 .imagens{
