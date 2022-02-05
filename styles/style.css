@@ -163,9 +163,10 @@ a:hover{
 #banner{
     background: url("https://cdn.ome.lt/B_S79084zg-OBmq2NsBfykWsCQA=/970x360/smart/uploads/conteudo/fotos/The_Witcher_3_-_banner_header.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     height: 550px;
+    width: 900px;
+    margin: 0 auto;
 
     display: flex;
     justify-content: flex-start;
