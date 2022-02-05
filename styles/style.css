@@ -39,7 +39,12 @@ footer{
     height: 250px;
     margin-left: 20px;
     margin-right: 20px;
-    
+    position:relative;
+    transition: .8s;
+}
+
+.noticia1:hover{
+    top:-2px;box-shadow:0 10px 10px gray
 }
 
 #titulo1{
@@ -52,8 +57,12 @@ footer{
     height: 250px;
     margin-left: 20px;
     margin-right: 20px;
+    position:relative;
+    transition: .8s;
 }
-
+.noticia2:hover{
+    top:-2px;box-shadow:0 10px 10px gray
+}
 #titulo2{
     text-align: center;
 }
@@ -63,8 +72,13 @@ footer{
     height: 250px;
     margin-left: 20px;
     margin-right: 20px;
+    position:relative;
+    transition: .8s;
 }
 
+.noticia3:hover{
+    top:-2px;box-shadow:0 10px 10px gray
+}
 #titulo3{
     text-align: center;
 }
