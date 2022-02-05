@@ -20,6 +20,39 @@ footer{
     flex-direction: column;
 }
 
+#textnews{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#noticias{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.noticia1{
+    width: 400px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.noticia2{
+    width: 400px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.noticia3{
+    width: 400px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .imagens{
     width: 75px;
     height: 85px;
@@ -41,14 +74,9 @@ footer{
     justify-content:center;
     align-items:center;
     font-family: arial, 'Times New Roman', Times, serif;
-
+    color: gray;
     
 }
-
-p{
-    color: gray;
-}
-
 
 header{
     display: flex;
