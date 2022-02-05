@@ -37,22 +37,36 @@ footer{
 .noticia1{
     width: 400px;
     height: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+#titulo1{
+    text-align: center;
+
 }
 
 .noticia2{
     width: 400px;
     height: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#titulo2{
+    text-align: center;
 }
 
 .noticia3{
     width: 400px;
     height: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#titulo3{
+    text-align: center;
 }
 
 .imagens{
