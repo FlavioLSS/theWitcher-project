@@ -349,7 +349,6 @@ button:hover{
     width: 450px;
     height: 400px;
     cursor:pointer;
-    opacity: .8;
     border: 1px solid black;
 }
 
