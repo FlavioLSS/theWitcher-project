@@ -244,12 +244,13 @@ span{
     text-align: center;
     display: flex;
     margin-bottom: 20px;
-    margin-left: 200px;
+    margin-left: 220px;
 }
 
 #com{
-    margin-left: 160px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-bottom: 10px;
 
 }
 
@@ -279,7 +280,8 @@ span{
 
 #buttons{
     display: flex;
-    margin-left: 260px;
+    margin-left: 290px;
+    margin-bottom: 50px;
 }
 
 button{
