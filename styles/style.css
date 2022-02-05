@@ -173,6 +173,7 @@ button{
     margin-right: 10px;
     opacity: .7;
     cursor: pointer;
+    transition: .3s;
 }
 
 button:hover{
