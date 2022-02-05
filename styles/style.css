@@ -47,7 +47,8 @@ footer{
 }
 
 .noticia1:hover{
-    top: -3px;box-shadow:0 10px 10px gray
+    top: -3px;
+    box-shadow:0 10px 10px gray
 }
 
 #titulo1{
@@ -97,6 +98,21 @@ footer{
 .texto{
     font-size:30px;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.texto p{
+    font-size: 25px;
+}
+
+#triss{
+    width: 45px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+#triss:hover{
+    border: 1px solid black;
 }
 
 .input{
@@ -109,6 +125,12 @@ footer{
 #bar{
     width: 1000px;
     height: 50px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
 }
 
 #check{
@@ -119,7 +141,7 @@ footer{
 }
 
 input[type="text"]{
-    font-size: 30px;
+    font-size: 25px;
     padding-left:10px;
 }
 
@@ -195,12 +217,13 @@ header li{
     font-weight: bold;
 }
 
-a{
+header li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
+    transition: .2s;
 }
 
-a:hover{
+header li a:hover{
     color: red;
 }
 
@@ -209,7 +232,7 @@ a:hover{
     background-repeat: no-repeat;
     background-position: center;
     height: 550px;
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
 
     display: flex;
@@ -238,22 +261,9 @@ span{
     font-size: 45px;
     color: rgb(238, 37, 37);
     font-family: 'the witcher';
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(31, 29, 29);
 }
-
-.witcher{
-    text-align: center;
-    display: flex;
-    margin-bottom: 20px;
-    margin-left: 220px;
-}
-
-#com{
-    margin-top: 50px;
-    margin-left: 180px;
-    margin-bottom: 10px;
-
-}
-
 
 #netflix{
     width: 60px;
@@ -278,10 +288,17 @@ span{
     flex-direction: row;
 }
 
+#text{
+    margin-left: 20px;
+}
+
+#text p{
+    font-size: 15px;
+}
+
 #buttons{
     display: flex;
-    margin-left: 290px;
-    margin-bottom: 50px;
+    margin-left: 20px;
 }
 
 button{
@@ -315,16 +332,17 @@ button:hover{
 
 #card-list{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     overflow: hidden;
 }
 
 .mini-card{
-    width: 300px;
-    height: 350px;
+    width: 450px;
+    height: 400px;
     cursor:pointer;
     opacity: .8;
+    border: 1px solid black;
 }
 
 .item-zoom {
