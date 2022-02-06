@@ -8,6 +8,15 @@
     scroll-behavior: smooth;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
 body{
     background-color: #EAEAEA;
 }
@@ -24,8 +33,9 @@ footer{
     margin-top: 200px;
 }
 
-#textnews{
+.textnews{
     text-align: center;
+    font-size: 25px;
     margin-top:20px;
     margin-bottom:20px;
 }
@@ -33,16 +43,12 @@ footer{
 #noticias{
     display:flex;
     justify-content: center;
-    flex-direction: row;
-    margin-left: 40px;
-    
+    flex-direction: row;    
 }
 
 .noticia1{
     width: 400px;
     height: 250px;
-    margin-left: 0px;
-    margin-right: 95px;
     position:relative;
     transition: .3s;
 }
@@ -54,14 +60,11 @@ footer{
 
 #titulo1{
     text-align: center;
-    margin-right: 85px;
 }
 
 .noticia2{
     width: 400px;
     height: 250px;
-    margin-left: auto;
-    margin-right: auto;
     position:relative;
     transition: .3s;
 }
@@ -77,8 +80,6 @@ footer{
 .noticia3{
     width: 400px;
     height: 250px;
-    margin-left: 80px;
-    margin-right: 80px;
     position:relative;
     transition: .3s;
 }
@@ -349,7 +350,6 @@ button:hover{
     width: 450px;
     height: 400px;
     cursor:pointer;
-    border: 1px solid black;
 }
 
 .item-zoom {
@@ -390,7 +390,8 @@ button:hover{
 }
 
 #modal-container{
-    background: url('https://http2.mlstatic.com/D_NQ_NP_777639-MLB41607151828_052020-O.jpg');
+    border: 3px solid black;
+    background: url('https://images.gnwcdn.com/2013/articles/1/7/4/9/3/0/6/gameplay-de-the-witcher-3-mostra-a-caca-aos-monstros-1429174320878.jpg/EG11/resize/1200x-1/gameplay-de-the-witcher-3-mostra-a-caca-aos-monstros-1429174320878.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -399,6 +400,8 @@ button:hover{
     height: 600px;
     margin: 0 auto;
     border-radius: 10px;
+    transform:scaleY(.01) scaleX(0);
+    animation:unfoldIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
 }
 .modal2{
     position: fixed;
@@ -413,7 +416,8 @@ button:hover{
 }
 
 #modal-container2{
-    background: url('https://m.media-amazon.com/images/I/51lZGrKYwjL._AC_.jpg');
+    border: 3px solid black;
+    background: url('https://i0.wp.com/www.thexboxhub.com/wp-content/uploads/2021/05/The-Witcher-2-Assassins-of-Kings.jpg?fit=979%2C551&ssl=1');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -422,6 +426,8 @@ button:hover{
     height: 600px;
     margin: 0 auto;
     border-radius: 10px;
+    transform:scaleY(.01) scaleX(0);
+    animation:unfoldIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
 }
 .modal3{
     position: fixed;
@@ -436,7 +442,8 @@ button:hover{
 }
 
 #modal-container3{
-    background: url('https://pt.techbriefly.com/wp-content/uploads/2020/12/1607179915_Baixe-The-Witcher-Enhanced-Edition-gratuitamente-em-GOGcom.jpg');
+    border: 3px solid black;
+    background: url('https://cdn.akamai.steamstatic.com/steam/apps/20900/ss_b26db23a0b4b4e07a6466c84f009cbdbb13091f7.1920x1080.jpg?t=1621939811');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -445,6 +452,8 @@ button:hover{
     height: 600px;
     margin: 0 auto;
     border-radius: 10px;
+    transform:scaleY(.01) scaleX(0);
+    animation:unfoldIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
 }
 .modal4{
     position: fixed;
@@ -459,7 +468,8 @@ button:hover{
 }
 
 #modal-container4{
-    background: url('https://tm.ibxk.com.br/2018/03/12/12180649787381.jpg');
+    border: 3px solid black;
+    background: url('https://i.ytimg.com/vi/h5Rqdzv9ZGY/maxresdefault.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -468,4 +478,34 @@ button:hover{
     height: 600px;
     margin: 0 auto;
     border-radius: 10px;
+    transform:scaleY(.01) scaleX(0);
+    animation:unfoldIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
 }
+
+@keyframes unfoldIn {
+    0% {
+      transform:scaleY(.005) scaleX(0);
+    }
+    50% {
+      transform:scaleY(.005) scaleX(1);
+    }
+    100% {
+      transform:scaleY(1) scaleX(1);
+    }
+  }
+
+@media (max-width: 1400px){
+    #titulo1, #titulo2, #titulo3{
+        font-size: 10px;
+    }
+
+    .noticia1, .noticia2, .noticia3{
+        width: 350px;
+        margin: 0px 10px;
+    }
+
+    #noticias{
+        margin: 0 auto;
+    }
+}
+  
