@@ -50,16 +50,14 @@ footer{
     flex-direction: row;    
 }
 
-<<<<<<< HEAD
 .noticia1{
     width: 450px;
     height: 280px;
     position:relative;
-=======
+}
 .news-card{
     width: 400px;
     height: 250px;
->>>>>>> 6320748e30601d0f3ae434c0811024a716542044
     transition: .3s;
     margin-left: 15px;
     margin-right: 15px;
@@ -75,7 +73,6 @@ footer{
     box-shadow:0 10px 10px gray
 }
 
-<<<<<<< HEAD
 #titulo1{
     text-align: center;
     margin-right: 0px;
@@ -83,8 +80,6 @@ footer{
     font-size: 13px;
 }
 
-=======
->>>>>>> 6320748e30601d0f3ae434c0811024a716542044
 .noticia2{
     width: 450px;
     height: 280px;
@@ -102,14 +97,11 @@ footer{
 }
 
 .noticia3{
-<<<<<<< HEAD
     width: 450px;
     height: 280px;
     position:relative;
-=======
     width: 400px;
     height: 250px;
->>>>>>> 6320748e30601d0f3ae434c0811024a716542044
     transition: .3s;
     margin-left: 15px;
     margin-right: 15px;
@@ -121,11 +113,9 @@ footer{
 }
 .titulos{
     text-align: center;
-<<<<<<< HEAD
     margin-right: 0px;
     margin-left: 0px;
     font-size: 13px;
-=======
 }
 
 #text-fix{
@@ -134,7 +124,6 @@ footer{
 
 #text-fix2{
     max-width: 400px;
->>>>>>> 6320748e30601d0f3ae434c0811024a716542044
 }
 
 #formulario{
