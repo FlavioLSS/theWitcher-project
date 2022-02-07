@@ -67,7 +67,8 @@ footer{
     height: 250px;
     position:relative;
     transition: .3s;
-    margin: 0px, 15px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .noticia2:hover{
     top:-2px;box-shadow:0 10px 10px gray
@@ -75,7 +76,7 @@ footer{
 #titulo2{
     text-align: center;
     margin-right: 0px;
-    margin-left: -25px;
+    margin-left: 0px;
 }
 
 .noticia3{
