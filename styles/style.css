@@ -18,7 +18,7 @@ a:hover{
 }
 
 body{
-    background-image: url('/theWitcher-project/img/ky15ot73f7a41.png');
+    background-image: url('/theWitcher-project/./img/ky15ot73f7a41.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -47,7 +47,7 @@ footer{
 #noticias{
     display:flex;
     justify-content: space-around;
-    flex-direction: row;    
+    flex-direction: row;
 }
 
 .noticia1{
