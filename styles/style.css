@@ -18,7 +18,10 @@ a:hover{
 }
 
 body{
-    background-color: #EAEAEA;
+    background-image: url('/img/ky15ot73f7a41.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 footer{
@@ -43,17 +46,28 @@ footer{
 
 #noticias{
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;    
 }
 
+<<<<<<< HEAD
 .noticia1{
     width: 450px;
     height: 280px;
     position:relative;
+=======
+.news-card{
+    width: 400px;
+    height: 250px;
+>>>>>>> 6320748e30601d0f3ae434c0811024a716542044
     transition: .3s;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.news-card:hover{
+    top:-2px;
+    box-shadow:0 10px 10px gray
 }
 
 .noticia1:hover{
@@ -61,6 +75,7 @@ footer{
     box-shadow:0 10px 10px gray
 }
 
+<<<<<<< HEAD
 #titulo1{
     text-align: center;
     margin-right: 0px;
@@ -68,6 +83,8 @@ footer{
     font-size: 13px;
 }
 
+=======
+>>>>>>> 6320748e30601d0f3ae434c0811024a716542044
 .noticia2{
     width: 450px;
     height: 280px;
@@ -76,9 +93,7 @@ footer{
     margin-left: 15px;
     margin-right: 15px;
 }
-.noticia2:hover{
-    top:-2px;box-shadow:0 10px 10px gray
-}
+
 #titulo2{
     text-align: center;
     margin-right: 0px;
@@ -87,22 +102,39 @@ footer{
 }
 
 .noticia3{
+<<<<<<< HEAD
     width: 450px;
     height: 280px;
     position:relative;
+=======
+    width: 400px;
+    height: 250px;
+>>>>>>> 6320748e30601d0f3ae434c0811024a716542044
     transition: .3s;
     margin-left: 15px;
     margin-right: 15px;
 }
 
 .noticia3:hover{
-    top:-2px;box-shadow:0 10px 10px gray
+    top:-2px;
+    box-shadow:0 10px 10px gray
 }
-#titulo3{
+.titulos{
     text-align: center;
+<<<<<<< HEAD
     margin-right: 0px;
     margin-left: 0px;
     font-size: 13px;
+=======
+}
+
+#text-fix{
+    max-width: 400px;
+}
+
+#text-fix2{
+    max-width: 400px;
+>>>>>>> 6320748e30601d0f3ae434c0811024a716542044
 }
 
 #formulario{
@@ -199,11 +231,13 @@ header{
     align-items: center;
     padding-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    opacity: .9;
 }
 
 #logo{
     width: 250px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 25px;
 }
 
@@ -237,7 +271,8 @@ header li{
 
 header li a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(245, 229, 229);
+    font-size: 20px;
     transition: .2s;
 }
 
@@ -350,18 +385,16 @@ button:hover{
 
 #card-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     overflow: hidden;
 }
 
 .mini-card{
-    width: 410px;
-    height: 390px;
+    width: 350px;
+    height: 450px;
     cursor:pointer;
-    width: 450px;
-    height: 400px;
-    cursor:pointer;
+    border: 4px solid rgb(0, 0, 0);
 }
 
 .item-zoom {
@@ -507,11 +540,11 @@ button:hover{
   }
 
 @media (max-width: 1400px){
-    #titulo1, #titulo2, #titulo3{
+    .titulos{
         font-size: 10px;
     }
 
-    .noticia1, .noticia2, .noticia3{
+    .news-card{
         width: 350px;
         margin: 0px 10px;
     }

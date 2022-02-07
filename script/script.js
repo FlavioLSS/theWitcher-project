@@ -17,7 +17,7 @@ function hideGeralt(){
 
     hide.style.display = 'none';
     test.style.opacity = '1';
-    test.style.background = '#EAEAEA';
+    test.style.background = './img/ky15ot73f7a41.png';
     hideCards.style.display = 'block';
 }
 
@@ -41,7 +41,7 @@ function hideGeralt2(){
 
     hide.style.display = 'none';
     test.style.opacity = '1';
-    test.style.background = '#EAEAEA';
+    test.style.background = './img/ky15ot73f7a41.png';
     hideCards.style.display = 'block';
 }
 
@@ -65,7 +65,7 @@ function hideGeralt3(){
 
     hide.style.display = 'none';
     test.style.opacity = '1';
-    test.style.background = '#EAEAEA';
+    test.style.background = './img/ky15ot73f7a41.png';
     hideCards.style.display = 'block';
 }
 
@@ -89,6 +89,6 @@ function hideGeralt4(){
 
     hide.style.display = 'none';
     test.style.opacity = '1';
-    test.style.background = '#EAEAEA';
+    test.style.background = './img/ky15ot73f7a41.png';
     hideCards.style.display = 'block';
 }
