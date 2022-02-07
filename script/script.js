@@ -6,7 +6,6 @@ function showGeralt(){
     hideCards.style.display = 'none';
     modal.style.display = 'flex';
     test.style.background = 'rgba(0, 0, 0, 0.6)';
-    test.style.opacity = '.8';
     modal.style.opacity = '1';
 }
 
@@ -30,7 +29,6 @@ function showGeralt2(){
     hideCards.style.display = 'none';
     modal.style.display = 'flex';
     test.style.background = 'rgba(0, 0, 0, 0.6)';
-    test.style.opacity = '.8';
     modal.style.opacity = '1';
 }
 
@@ -54,7 +52,6 @@ function showGeralt3(){
     hideCards.style.display = 'none';
     modal.style.display = 'flex';
     test.style.background = 'rgba(0, 0, 0, 0.6)';
-    test.style.opacity = '.8';
     modal.style.opacity = '1';
 }
 
@@ -78,7 +75,6 @@ function showGeralt4(){
     hideCards.style.display = 'none';
     modal.style.display = 'flex';
     test.style.background = 'rgba(0, 0, 0, 0.6)';
-    test.style.opacity = '.8';
     modal.style.opacity = '1';
 }
 
