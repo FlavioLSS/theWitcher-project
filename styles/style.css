@@ -261,7 +261,7 @@ header li{
 header li a{
     text-decoration: none;
     color: rgb(245, 229, 229);
-    font-size: 20px;
+    font-size: 15px;
     transition: .2s;
 }
 
@@ -541,5 +541,13 @@ button:hover{
     #noticias{
         margin: 0 auto;
     }
+
+    .mini-card{
+        border: none;
+    }
+}
+
+#description-fix{
+    font-family: Arial, Helvetica, sans-serif !important;
 }
   
