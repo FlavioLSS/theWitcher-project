@@ -18,7 +18,10 @@ a:hover{
 }
 
 body{
-    background-color: #EAEAEA;
+    background-image: url('/img/ky15ot73f7a41.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 footer{
@@ -42,24 +45,24 @@ footer{
 
 #noticias{
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;    
 }
 
-.noticia1{
+.news-card{
     width: 400px;
     height: 250px;
-    position:relative;
     transition: .3s;
+}
+
+.news-card:hover{
+    top:-2px;
+    box-shadow:0 10px 10px gray
 }
 
 .noticia1:hover{
     top: -3px;
     box-shadow:0 10px 10px gray
-}
-
-#titulo1{
-    text-align: center;
 }
 
 .noticia2{
@@ -69,28 +72,30 @@ footer{
     transition: .3s;
 }
 .noticia2:hover{
-    top:-2px;box-shadow:0 10px 10px gray
-}
-#titulo2{
-    text-align: center;
-    margin-right: 0px;
-    margin-left: -25px;
+    top:-2px;
+    box-shadow:0 10px 10px gray
 }
 
 .noticia3{
     width: 400px;
     height: 250px;
-    position:relative;
     transition: .3s;
 }
 
 .noticia3:hover{
-    top:-2px;box-shadow:0 10px 10px gray
+    top:-2px;
+    box-shadow:0 10px 10px gray
 }
-#titulo3{
+.titulos{
     text-align: center;
-    margin-left:auto;
-    margin-right: auto;
+}
+
+#text-fix{
+    max-width: 400px;
+}
+
+#text-fix2{
+    max-width: 400px;
 }
 
 #formulario{
@@ -187,11 +192,13 @@ header{
     align-items: center;
     padding-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    opacity: .9;
 }
 
 #logo{
     width: 250px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 25px;
 }
 
@@ -225,7 +232,8 @@ header li{
 
 header li a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(245, 229, 229);
+    font-size: 20px;
     transition: .2s;
 }
 
@@ -338,18 +346,16 @@ button:hover{
 
 #card-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     overflow: hidden;
 }
 
 .mini-card{
-    width: 410px;
-    height: 390px;
+    width: 350px;
+    height: 450px;
     cursor:pointer;
-    width: 450px;
-    height: 400px;
-    cursor:pointer;
+    border: 4px solid rgb(0, 0, 0);
 }
 
 .item-zoom {
@@ -495,11 +501,11 @@ button:hover{
   }
 
 @media (max-width: 1400px){
-    #titulo1, #titulo2, #titulo3{
+    .titulos{
         font-size: 10px;
     }
 
-    .noticia1, .noticia2, .noticia3{
+    .news-card{
         width: 350px;
         margin: 0px 10px;
     }
