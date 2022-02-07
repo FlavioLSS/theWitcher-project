@@ -18,7 +18,7 @@ a:hover{
 }
 
 body{
-    background-image: url('/img/ky15ot73f7a41.png');
+    background-image: url('/theWitcher-project/./img/ky15ot73f7a41.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -47,13 +47,14 @@ footer{
 #noticias{
     display:flex;
     justify-content: space-around;
-    flex-direction: row;    
+    flex-direction: row;
 }
 
 .noticia1{
     width: 450px;
     height: 280px;
     position:relative;
+}
 .news-card{
     width: 400px;
     height: 250px;
@@ -298,7 +299,7 @@ header li a:hover{
     font-style: italic;
 }
 
-span{
+#witcher-font{
     font-size: 45px;
     color: rgb(238, 37, 37);
     font-family: 'the witcher';
