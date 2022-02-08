@@ -359,8 +359,8 @@ button:hover{
 }
 
 .mini-card{
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 380px;
     cursor:pointer;
     border-radius: 50%;
 }
