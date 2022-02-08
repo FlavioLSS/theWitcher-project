@@ -50,10 +50,21 @@ footer{
     letter-spacing:25px;
 }
 
-#noticias{
+.noticias{
     display:flex;
     justify-content: center;
     flex-direction: row;
+    margin-bottom: 80px;
+}
+
+#noticias-geral{
+    display:flex;
+
+}
+
+#noticias-geral2{
+    display:flex;
+
 }
 
 .news-card{
@@ -359,8 +370,8 @@ button:hover{
 }
 
 .mini-card{
-    width: 380px;
-    height: 380px;
+    width: 280px;
+    height: 280px;
     cursor:pointer;
     border-radius: 50%;
 }
