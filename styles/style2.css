@@ -9,7 +9,10 @@
 }
 
 body{
-    background-color: #EAEAEA;
+    background-image: url('https://c.wallhere.com/photos/8a/6c/fantasy_art_artwork_The_Witcher_Geralt_of_Rivia-2011917.jpg!d');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
 }
 
 header{
@@ -18,6 +21,8 @@ header{
     align-items: center;
     padding-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    opacity: .9;
 }
 
 #logo{
@@ -54,9 +59,11 @@ header li{
     font-weight: bold;
 }
 
-a{
+header li a{
     text-decoration: none;
-    color: black;
+    color: rgb(245, 229, 229);
+    font-size: 15px;
+    transition: .2s;
 }
 
 a:hover{

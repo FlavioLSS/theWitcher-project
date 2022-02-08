@@ -24,10 +24,6 @@ body{
     background-size: cover;
 }
 
-html{
-    background: #EFEFED
-}
-
 footer{
     bottom: 0;
     display: flex;
@@ -247,18 +243,23 @@ header li a:hover{
 }
 
 #banner{
-    background: url("https://cdn.ome.lt/B_S79084zg-OBmq2NsBfykWsCQA=/970x360/smart/uploads/conteudo/fotos/The_Witcher_3_-_banner_header.jpg");
+    background: url("https://static.cdprojektred.com/thewitcher.com/media/wallpapers/witcher3/full/thewitcher.com_en_1920x1080_5edf441f77ea9.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 550px;
-    width: 1000px;
+    background-size: cover;
+    height: 600px;
+    width: 95%;
     margin: 0 auto;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 
     color: white;
+}
+
+.size-fix{
+    font-size: 35px !important;
 }
 
 #bg{
@@ -285,7 +286,7 @@ header li a:hover{
 }
 
 #witcher-font2{
-    font-size: 45px;
+    font-size: 50px;
     color: #f6260a;
     font-family: 'the witcher';
     -webkit-text-stroke-width: 1.5px;
@@ -294,6 +295,10 @@ header li a:hover{
 
 #netflix{
     width: 60px;
+}
+
+#news{
+    margin-top: 100px;
 }
 
 #steam{
@@ -322,10 +327,11 @@ header li a:hover{
 #text h2{
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: rgb(31, 29, 29);
+    font-size: 2.5rem;
 }
 
 #text p{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #buttons{
