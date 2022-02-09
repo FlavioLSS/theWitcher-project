@@ -282,8 +282,7 @@ header li a:hover{
     color: #F37D20;
     font-family: 'the witcher';
     -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: rgb(31, 29, 29);
-    background-color: rgb(248, 157, 97);
+    -webkit-text-stroke-color: rgb(31, 29, 29);;
 }
 
 #witcher-font2{

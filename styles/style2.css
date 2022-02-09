@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'tw3', arial, sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -66,8 +66,13 @@ header li a{
     transition: .2s;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 a:hover{
-    color: red;
+    color: #ff0000;
 }
 
 footer{
@@ -102,15 +107,23 @@ footer{
 }
 
 #witcher-font{
-    font-size: 50px;
-    color: #f6260a;
+    font-size: 45px;
+    color: #F37D20;
     font-family: 'the witcher';
     -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: rgb(31, 29, 29);
+    -webkit-text-stroke-color: rgb(31, 29, 29);;
 }
 
-h1{
+.text-titles{
     text-align: center;
+    font-size: 25px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left: 20px;
+    font-size: 45px;
+    letter-spacing:15px;
+    display: flex;
+    justify-content: center;
 }
 
 #personagens{
