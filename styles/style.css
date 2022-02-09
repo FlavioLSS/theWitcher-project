@@ -44,6 +44,8 @@ footer{
     padding-left: 20px;
     font-size: 45px;
     letter-spacing:25px;
+    display: flex;
+    justify-content: center;
 }
 
 .noticias{
@@ -283,6 +285,7 @@ header li a:hover{
     font-family: 'the witcher';
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: rgb(31, 29, 29);
+    background-color: rgb(248, 157, 97);
 }
 
 #witcher-font2{
@@ -373,6 +376,10 @@ button:hover{
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
+    background-image: url(../img/cdprojectk.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
 }
 
 .mini-card{
