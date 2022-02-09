@@ -60,10 +60,12 @@ footer{
     height: 280px;
     transition: .4s;
     margin: 0px 10px;
+    position: relative
 }
 
 .news-card:hover{
     top:-2px;
+    transform: scale(1.05, 1.05);
     box-shadow:0 10px 10px rgb(0, 0, 0)
 }
 
