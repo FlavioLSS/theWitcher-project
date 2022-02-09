@@ -10,11 +10,11 @@
 
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 145, 0);
 }
 
 a:hover{
-    color: #F37D20;
+    color: #ffffff;
 }
 
 body{
