@@ -90,6 +90,16 @@ footer{
     justify-content: center;
 }
 
+.noticiasb{
+margin-left: 650px;
+width: 30%;
+
+}
+
+.noticiasb:hover {
+    background: rgba(0, 0, 0, 0)
+}
+
 #text-fix{
     max-width: 400px;
 }
@@ -294,6 +304,12 @@ header li a:hover{
     font-family: 'the witcher';
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: rgb(31, 29, 29);
+}
+
+#witcher-font3{
+    font-size: 25px;
+    color: #f6260a;
+    font-family: 'the witcher';
 }
 
 #netflix{
