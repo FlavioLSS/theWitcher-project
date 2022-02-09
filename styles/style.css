@@ -55,16 +55,6 @@ footer{
     margin-bottom: 80px;
 }
 
-#noticias-geral{
-    display:flex;
-
-}
-
-#noticias-geral2{
-    display:flex;
-
-}
-
 .news-card{
     width: 450px;
     height: 280px;
@@ -76,12 +66,6 @@ footer{
     top:-2px;
     box-shadow:0 10px 10px rgb(0, 0, 0)
 }
-
-.noticia1:hover{
-    top: -3px;
-    box-shadow:0 10px 10px gray
-}
-
 
 .titulos{
     text-align: center;
@@ -97,7 +81,11 @@ width: 30%;
 }
 
 .noticiasb:hover {
-    background: rgba(0, 0, 0, 0)
+    background: transparent;
+}
+
+.noticiasb:hover::after{
+background-color: #F37D20;
 }
 
 #text-fix{
