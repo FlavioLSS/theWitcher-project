@@ -376,10 +376,6 @@ button:hover{
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
-    background-image: url(../img/cdprojectk.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 90%;
 }
 
 .mini-card{
