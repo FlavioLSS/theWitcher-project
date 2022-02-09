@@ -111,7 +111,8 @@ footer{
     color: #F37D20;
     font-family: 'the witcher';
     -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: rgb(31, 29, 29);;
+    -webkit-text-stroke-color: rgb(31, 29, 29);
+    background-color:#f8b66b;
 }
 
 .text-titles{
