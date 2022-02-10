@@ -60,6 +60,7 @@ footer{
     height: 280px;
     transition: .4s;
     margin: 0px 10px;
+    margin-bottom: 15px;
     position: relative
 }
 
