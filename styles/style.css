@@ -91,9 +91,13 @@ footer{
 }
 
 .noticiasb{
-margin-left: 650px;
-width: 30%;
-background-color: #ffffff;
+    background-color: #ffffff;
+    width: 450px;
+}
+
+#bot{
+    display: flex;
+    justify-content: center;
 }
 
 .noticiasb:hover {
