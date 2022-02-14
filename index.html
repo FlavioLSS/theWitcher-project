@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./styles/style.css">
     <title>The Witcher</title>
     <style>
@@ -23,19 +27,19 @@
 </head>
 <body>
 <div id="cover">
-    <header>
+    <header class="animate__animated animate__fadeIn"> 
         <a href="#"><img src="https://wikiimg.tojsiabtv.com/wikipedia/en/5/53/The_Witcher_video_game_series_logo.png" alt="the-witcher" id="logo"></a>
         <ul>
             <li> <a href="./index.html">Home</a> </li>
             <li><a href="#news">Notícias</a></li>
             <li><a href="./index-2.html">Personagens</a></li>
             <li><a href="#form">Cosplay</a></li>
-            <li><a href="#">Livros</a></li>
+            <li><a href="./index-3.html">Livros</a></li>
             <li><a target="_blank" href="https://thewitcher.com/en/witcher3" id="buy">Comunidade</a></li>
         </ul>
     </header>
 
-    <section id="banner">
+    <section id="banner"  class="animate__animated animate__fadeInLeft animate__delay-1s">
         <div id="bg">
                 <div id="text">
                     <h2>Explore o incrível mundo de <br> <span id="witcher-font2">The Witcher</span></h2>
@@ -43,17 +47,17 @@
                 </div>
             <div id="buttons">
                 <button>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5977/5977590.png" alt="netflix" id="netflix">
+                    <a target=”_blank” href="https://www.netflix.com/br/title/80189685"><img src="https://cdn-icons-png.flaticon.com/512/5977/5977590.png" alt="netflix" id="netflix"></a>
                 </button>
                 <button id="steam1">
                     Steam
-                    <img src="https://cdn-icons-png.flaticon.com/512/3/3782.png" alt="netflix" id="steam">
+                    <a target=”_blank” href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/?l=portuguese"><img src="https://cdn-icons-png.flaticon.com/512/3/3782.png" alt="netflix" id="steam"></a>
                 </button>
                 <button>
-                    <img src="https://img2.gratispng.com/20180422/fkq/kisspng-playstation-4-playstation-3-playstation-2-playstat-slim-5adc1692ab0e14.1117403815243731387007.jpg" alt="netflix" id="controller">
+                    <a target=”_blank” href="https://www.playstation.com/pt-br/games/the-witcher-3-wild-hunt/"><img src="https://img2.gratispng.com/20180422/fkq/kisspng-playstation-4-playstation-3-playstation-2-playstat-slim-5adc1692ab0e14.1117403815243731387007.jpg" alt="netflix" id="controller"></a>
                 </button>
                 <button>
-                    <img src="https://cdn-icons-png.flaticon.com/512/906/906325.png" alt="netflix" id="xbox">
+                    <a target=”_blank” href="https://www.xbox.com/pt-BR/games/store/the-witcher-3-wild-hunt/BR765873CQJD"><img src="https://cdn-icons-png.flaticon.com/512/906/906325.png" alt="netflix" id="xbox"></a>
                 </button>
             </div>
         </div>
@@ -133,7 +137,7 @@
           <div>
               <a target="_blank" href="https://www.theenemy.com.br">
                 <button type="button" class="noticiasb">
-                    <h2 id="witcher-font3" >Mais noticias aqui</h2>
+                    <h2 id="witcher-font3" class="text--alert">Mais noticias aqui</h2>
                 </button>
               </a>
           </div>  
@@ -157,7 +161,7 @@
     </div></a>
     </div>
     <section id="cards">
-        <h2 class="textnews"><span id="witcher-font">Jogos / Gameplay</span></h2>
+        <h2 class="textnews"><span id="witcher-font">Jogos | Gameplay</span></h2>
         <div id="card-list">
             <div class="item-zoom" onclick="showGeralt()">
                 <img src="https://image.api.playstation.com/vulcan/img/rnd/202009/2913/TQKAd8U6hnIFQIIcz6qnFh8C.png" alt="geralt" class="mini-card">
