@@ -329,24 +329,18 @@ header li a:hover{
 }
 
 #steam{
-    width: 20px;
+    width: 60px;
     margin-left: 3px;
     font-weight: bold;
 }
 
 #controller{
-    width: 40px;
+    width: 60px;
 }
 
 #xbox{
-    width: 40px;
+    width: 60px;
 }
-
-#steam1{
-    display: flex;
-    flex-direction: row;
-}
-
 #text{
     margin-left: 20px;
 }
@@ -364,6 +358,7 @@ header li a:hover{
 #buttons{
     display: flex;
     margin-left: 20px;
+    width: 300px;
 }
 
 button{
@@ -373,20 +368,16 @@ button{
     flex-direction: column;
 
     width: 80px;
-    height: 45px;
-
+    height: auto;
+    background: transparent;
     margin-top: 15px;
-
-    border-radius: 10px;
-    border: 2px solid black;
+    border: none;
     margin-right: 10px;
-    opacity: .7;
     cursor: pointer;
-    transition: .3s;
+    transition: .3s ease-in-out;
 }
 
 button:hover{
-    opacity: 1;
     transform: scale(1.1);
 }
 
